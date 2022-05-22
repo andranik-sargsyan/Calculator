@@ -1,0 +1,29 @@
+﻿#calc {
+    width: 500px;
+    border: solid 1px black;
+    margin: 100px auto;
+}
+
+#calc-head {
+    background-color: #ccc;
+    height: 50px;
+    margin: 5px;
+    margin-bottom: 0px;
+    border: solid 1px black;
+    font-size: 40px;
+    text-align: right;
+    padding: 5px;
+    font-family: 'Segoe UI';
+    overflow: hidden;
+}
+
+#calc-body {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 5px;
+    height: 300px;
+}
+
+    #calc-body > button {
+        margin: 1px;
+    }
