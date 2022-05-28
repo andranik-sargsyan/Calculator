@@ -42,7 +42,7 @@ buttons.forEach(item => {
                 memory.innerText = display.innerText;
                 break;
             case "mr":
-                display.innerText = memory.innerText;
+                display.innerText = memory.innerText || 0;
                 break;
             case "mc":
                 memory.innerText = "";
